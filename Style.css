@@ -1,0 +1,22 @@
+body{
+    padding: 25px;
+    font: 1em;
+    }
+    *{
+    box-sizing: border-box;
+    }
+    .containers{
+    border: 5px solid royalblue;
+    border-radius: 2em;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    }
+    .items{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(9, 31, 228);
+    border: 5px solid rgb(253, 0, 34);
+    }
